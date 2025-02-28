@@ -1,45 +1,46 @@
 {
   "seo": {
     "type": "website",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/74d13a55-4c18-4a5c-8cb4-dcaa27aae923",
     "title": "Storefront",
     "jsonLDs": [],
     "noIndexing": false,
-    "description": "Build profitable websites with deco.cx",
+    "description": "Improve your page performance with deco.cx ",
     "titleTemplate": "%s | deco.cx",
-    "descriptionTemplate": "%s | deco.cx",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/e4024f82-e88f-4cc6-94fe-4215fe8faef3"
+    "descriptionTemplate": "%s | Deco.cx",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/7b597c6f-f39f-4a70-ad5e-23cbf5e4211d",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/b6c7bfc3-782d-4e8d-8899-5679ae8823a9"
   },
   "theme": {
-    "__resolveType": "Deco"
+    "__resolveType": "Fashion theme"
   },
   "global": [
     {
-      "__resolveType": "htmx/sections/htmx.tsx"
-    },
-    {
       "__resolveType": "website/sections/Analytics/Analytics.tsx",
-      "dangerouslyRunOnMainThread": true,
-      "trackingIds": []
+      "dangerouslyRunOnMainThread": true
     },
     {
-      "__resolveType": "analytics/sections/Analytics/DecoAnalytics.tsx",
-      "domain": "storefront.deco.site"
+      "__resolveType": "algolia/sections/Analytics/Algolia.tsx"
     },
     {
-      "__resolveType": "site/sections/Session.tsx",
-      "minicart": null,
-      "wishlist": null,
-      "mode": "lazy",
-      "user": null
+      "__resolveType": "analytics/sections/Analytics/DecoAnalytics.tsx"
+    },
+    {
+      "__resolveType": "htmx/sections/htmx.tsx"
     }
   ],
   "routes": [
     {
-      "__resolveType": "shopify/loaders/proxy.ts",
-      "extraPathsToProxy": [],
+      "__resolveType": "vtex/loaders/proxy.ts",
       "includeSiteMap": [],
-      "excludePathsFromDecoSiteMap": []
+      "extraPathsToProxy": [],
+      "includeScriptsToHead": {
+        "includes": [
+          {
+            "__resolveType": "analytics/loaders/DecoAnalyticsScript.ts"
+          }
+        ],
+        "includePlausible": true
+      }
     },
     {
       "__resolveType": "website/loaders/pages.ts"
@@ -54,19 +55,13 @@
   "commerce": {
     "platform": "other"
   },
-  "platform": "shopify",
+  "platform": "vtex",
   "__resolveType": "site/apps/site.ts",
-  "firstByteThresholdMS": false,
+  "firstByteThresholdMS": true,
   "abTesting": {
     "replaces": [],
     "includeScriptsToHead": {
       "includes": []
-    },
-    "includeScriptsToBody": {
-      "includes": []
     }
-  },
-  "flavor": {
-    "framework": "htmx"
   }
 }

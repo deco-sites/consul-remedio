@@ -5,7 +5,7 @@
  * https://github.com/saadeghi/daisyui/blob/37bca23444bc9e4d304362c14b7088f9a08f1c74/src/docs/src/routes/theme-generator.svelte
  */
 import SiteTheme, { Font } from "apps/website/components/Theme.tsx";
-import Color from "npm:colorjs.io@0.5.2";
+import Color from "npm:colorjs.io";
 import type { ComponentChildren } from "preact";
 import { clx } from "../../sdk/clx.ts";
 
@@ -41,8 +41,6 @@ export interface ComplementaryColors {
   /** @format color-input */
   "base-300"?: string;
   /** @format color-input */
-  "base-400"?: string;
-  /** @format color-input */
   "base-content"?: string;
   /** @format color-input */
   "primary-content"?: string;
@@ -75,7 +73,7 @@ export interface Button {
    * @title Radius
    * @description Button and similar elements
    */
-  "--rounded-btn": "0" | "0.2rem" | "0.4rem" | "0.8rem" | "2rem" | "99999px";
+  "--rounded-btn": "0" | "0.2rem" | "0.4rem" | "0.8rem" | "2rem";
   /**
    * @default 0.95
    * @title Scale on click
@@ -127,7 +125,7 @@ export interface Props {
    * @description Set the prefers-color-scheme media query. To support dark mode, create two instances of this block and set this option to light/dark in each instance
    * @default light
    */
-  colorScheme?: "light" | "dark" | "any";
+  colorScheme?: "light" | "dark";
   mainColors?: ThemeColors;
   /** @description These will be auto-generated to a readable color if not set */
   complementaryColors?: ComplementaryColors;
@@ -274,7 +272,7 @@ function Section({
     <SiteTheme
       fonts={font ? [font] : undefined}
       variables={variables}
-      colorScheme={colorScheme === "any" ? undefined : colorScheme}
+      colorScheme={colorScheme}
     />
   );
 }
@@ -654,10 +652,6 @@ const snippets = {
   <button class="btn btn-md btn-accent">Normal</button>
   <button class="btn btn-sm btn-accent">Small</button>
   <button class="btn btn-xs btn-accent">Tiny</button>`,
-};
-
-export const LoadingFallback = () => {
-  throw new Error("Cannot defer theme section");
 };
 
 export default Section;

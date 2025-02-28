@@ -68,7 +68,6 @@ server/
 
 import_map.local.json
 deno.lock
-deno.*.tmp
 
 # db files
 .config.json
@@ -77,10 +76,4 @@ _fresh/
 
 # Deco files
 _docker_deps.ts
-.metadata/*
-.deco/metadata/*
-
-.env
-
-# Deno files
-deno.*.tmp
+.metadata/changeset.json
