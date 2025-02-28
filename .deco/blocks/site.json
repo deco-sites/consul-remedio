@@ -15,13 +15,6 @@
   },
   "global": [
     {
-      "__resolveType": "website/sections/Analytics/Analytics.tsx",
-      "dangerouslyRunOnMainThread": true
-    },
-    {
-      "__resolveType": "algolia/sections/Analytics/Algolia.tsx"
-    },
-    {
       "__resolveType": "analytics/sections/Analytics/DecoAnalytics.tsx"
     }
   ],
