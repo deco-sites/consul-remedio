@@ -2,12 +2,6 @@
   "name": "Home",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Header - 01"
-      }
-    },
-    {
       "__resolveType": "site/sections/Miscellaneous/Slide.tsx",
       "content": [
         {
@@ -55,6 +49,9 @@
     },
     {
       "__resolveType": "site/sections/Miscellaneous/CampaignTimer.tsx",
+      "layout": {
+        "textPosition": "After counter"
+      },
       "link": {
         "href": "https://github.com/deco-cx",
         "text": "Visit our GitHub"
@@ -66,9 +63,6 @@
         "expired": " Expired!",
         "minutes": "minutes",
         "seconds": "seconds"
-      },
-      "layout": {
-        "textPosition": "After counter"
       },
       "expiresAt": "2024-03-15T17:23:00.000Z"
     },
