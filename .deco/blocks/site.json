@@ -50,7 +50,7 @@
     "account": "Consulta Rémedio",
     "checkoutUrl": "https://consultaremedios.checkout.fbits.store/"
   },
-  "platform": "vtex",
+  "platform": "wake",
   "__resolveType": "site/apps/site.ts",
   "firstByteThresholdMS": false,
   "abTesting": {
