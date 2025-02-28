@@ -3,12 +3,12 @@
     "type": "website",
     "title": "Storefront",
     "jsonLDs": [],
-    "noIndexing": false,
-    "description": "Improve your page performance with deco.cx ",
-    "titleTemplate": "%s | deco.cx",
-    "descriptionTemplate": "%s | Deco.cx",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/7b597c6f-f39f-4a70-ad5e-23cbf5e4211d",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/b6c7bfc3-782d-4e8d-8899-5679ae8823a9"
+    "noIndexing": true,
+    "titleTemplate": "%s | Consulta Rémedios",
+    "descriptionTemplate": "%s | Consulta Rémedios",
+    "image": "https://data.decoassets.com/consul-remedio/acc9b254-fb4f-4e71-8ae8-edca85ac9d9c/banner-novo-consulta-remedios-(1).webp",
+    "favicon": "https://data.decoassets.com/consul-remedio/f9fc81b7-3e98-486b-8d58-d700ce5ed617/icon-wrapper-h.svg",
+    "description": "Consulta Rémedios"
   },
   "theme": {
     "__resolveType": "Fashion theme"
