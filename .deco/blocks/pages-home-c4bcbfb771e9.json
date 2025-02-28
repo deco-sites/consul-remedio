@@ -2,7 +2,10 @@
   "name": "Home",
   "sections": [
     {
-      "__resolveType": "Header - 01"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header - 01"
+      }
     },
     {
       "__resolveType": "site/sections/Miscellaneous/Slide.tsx",
@@ -14,41 +17,38 @@
       ]
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Product/ProductShelf.tsx",
-        "products": {
-          "__resolveType": "wake/loaders/productList.ts",
-          "first": 12,
-          "sortDirection": "ASC",
-          "sortKey": "DISCOUNT",
-          "filters": {
-            "attributes": {
-              "id": [],
-              "name": [],
-              "type": [],
-              "value": []
-            },
-            "brandId": [],
-            "categoryId": [],
-            "ean": [],
-            "productId": [],
-            "productVariantId": [],
-            "sameParentAs": [],
-            "sku": [],
-            "stocks": {
-              "dcId": [],
-              "dcName": []
-            },
-            "prices": {}
-          }
+      "__resolveType": "site/sections/Product/ProductShelf.tsx",
+      "products": {
+        "__resolveType": "wake/loaders/productList.ts",
+        "sortDirection": "ASC",
+        "sortKey": "DISCOUNT",
+        "filters": {
+          "attributes": {
+            "id": [],
+            "name": [],
+            "type": [],
+            "value": []
+          },
+          "brandId": [],
+          "categoryId": [],
+          "ean": [],
+          "productId": [],
+          "productVariantId": [],
+          "sameParentAs": [],
+          "sku": [],
+          "stocks": {
+            "dcId": [],
+            "dcName": []
+          },
+          "prices": {}
         },
-        "title": "Ofertas Especiais",
-        "layout": {
-          "numberOfSliders": {
-            "desktop": 4,
-            "mobile": 1
-          }
+        "first": 20
+      },
+      "title": "Ofertas Especiais",
+      "layout": {
+        "numberOfSliders": {
+          "desktop": 4,
+          "mobile": 1
         }
       }
     },
