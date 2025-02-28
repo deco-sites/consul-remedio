@@ -1,6 +1,6 @@
 {
   "name": "Product Page",
-  "path": "/produto/:slug/p",
+  "path": "/produto/:slug/",
   "default": {
     "possiblePaths": []
   },
@@ -18,17 +18,14 @@
       "__resolveType": "Header - 01"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Product/ProductDetails.tsx",
-        "page": {
-          "__resolveType": "wake/loaders/productDetailsPage.ts",
-          "slug": {
-            "__resolveType": "website/functions/requestToParam.ts",
-            "param": "slug"
-          },
-          "includeSameParent": false
-        }
+      "__resolveType": "site/sections/Product/ProductDetails.tsx",
+      "page": {
+        "__resolveType": "wake/loaders/productDetailsPage.ts",
+        "slug": {
+          "__resolveType": "website/functions/requestToParam.ts",
+          "param": "slug"
+        },
+        "includeSameParent": false
       }
     },
     {
