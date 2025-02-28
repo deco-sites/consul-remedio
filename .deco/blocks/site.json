@@ -1,14 +1,14 @@
 {
   "seo": {
     "type": "website",
-    "title": "Storefront",
     "jsonLDs": [],
     "noIndexing": true,
     "titleTemplate": "%s | Consulta Rémedios",
     "descriptionTemplate": "%s | Consulta Rémedios",
     "image": "https://data.decoassets.com/consul-remedio/acc9b254-fb4f-4e71-8ae8-edca85ac9d9c/banner-novo-consulta-remedios-(1).webp",
     "favicon": "https://data.decoassets.com/consul-remedio/f9fc81b7-3e98-486b-8d58-d700ce5ed617/icon-wrapper-h.svg",
-    "description": "Consulta Rémedios"
+    "description": "Consulta Rémedios",
+    "title": "Consulta Rémedios"
   },
   "theme": {
     "__resolveType": "Serene Coastline"
@@ -30,23 +30,16 @@
   ],
   "routes": [
     {
-      "__resolveType": "vtex/loaders/proxy.ts",
-      "includeSiteMap": [],
-      "extraPathsToProxy": [],
-      "includeScriptsToHead": {
-        "includes": [
-          {
-            "__resolveType": "analytics/loaders/DecoAnalyticsScript.ts"
-          }
-        ],
-        "includePlausible": true
-      }
-    },
-    {
       "__resolveType": "website/loaders/pages.ts"
     },
     {
       "__resolveType": "website/loaders/redirects.ts"
+    },
+    {
+      "__resolveType": "wake/loaders/proxy.ts",
+      "extraPathsToProxy": [],
+      "excludePathsFromDecoSiteMap": [],
+      "includeSiteMap": []
     }
   ],
   "caching": {
