@@ -5,11 +5,41 @@
       "__resolveType": "Header - 01"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Product/ProductShelf.tsx",
-        "products": null
-      }
+      "__resolveType": "site/sections/Product/ProductShelf.tsx",
+      "products": {
+        "__resolveType": "wake/loaders/productList.ts",
+        "first": 20,
+        "sortDirection": "ASC",
+        "sortKey": "DISCOUNT",
+        "filters": {
+          "attributes": {
+            "id": [],
+            "name": [],
+            "type": [],
+            "value": []
+          },
+          "brandId": [],
+          "categoryId": [],
+          "ean": [],
+          "productId": [],
+          "productVariantId": [],
+          "sameParentAs": [],
+          "sku": [],
+          "stocks": {
+            "dcId": [],
+            "dcName": []
+          },
+          "prices": {}
+        }
+      },
+      "layout": {
+        "showArrows": true,
+        "numberOfSliders": {
+          "mobile": 1,
+          "desktop": 4
+        }
+      },
+      "title": "Ofertas imperdivés"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
