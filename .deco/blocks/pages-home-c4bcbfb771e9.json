@@ -14,6 +14,45 @@
       ]
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Product/ProductShelf.tsx",
+        "products": {
+          "__resolveType": "wake/loaders/productList.ts",
+          "first": 12,
+          "sortDirection": "ASC",
+          "sortKey": "DISCOUNT",
+          "filters": {
+            "attributes": {
+              "id": [],
+              "name": [],
+              "type": [],
+              "value": []
+            },
+            "brandId": [],
+            "categoryId": [],
+            "ean": [],
+            "productId": [],
+            "productVariantId": [],
+            "sameParentAs": [],
+            "sku": [],
+            "stocks": {
+              "dcId": [],
+              "dcName": []
+            },
+            "prices": {}
+          }
+        },
+        "title": "Ofertas Especiais",
+        "layout": {
+          "numberOfSliders": {
+            "desktop": 4,
+            "mobile": 1
+          }
+        }
+      }
+    },
+    {
       "__resolveType": "site/sections/Miscellaneous/CampaignTimer.tsx",
       "link": {
         "href": "https://github.com/deco-cx",
