@@ -53,7 +53,15 @@
     "directives": []
   },
   "commerce": {
-    "platform": "other"
+    "platform": "wake",
+    "storefrontToken": {
+      "__resolveType": "website/loaders/secret.ts",
+      "encrypted": "bc9d96ea79ed69e58776ec0e193e22dad7e1321a1366072be2f068310ef30e34ff68f38684fac7b8b9d10b4ab639cd90",
+      "name": "WAKE_STOREFRONT_TOKEN"
+    },
+    "token": {},
+    "account": "Consulta Rémedio",
+    "checkoutUrl": "https://consultaremedios.checkout.fbits.store/"
   },
   "platform": "vtex",
   "__resolveType": "site/apps/site.ts",
@@ -62,6 +70,12 @@
     "replaces": [],
     "includeScriptsToHead": {
       "includes": []
+    },
+    "includeScriptsToBody": {
+      "includes": []
     }
+  },
+  "flavor": {
+    "framework": "fresh"
   }
 }
