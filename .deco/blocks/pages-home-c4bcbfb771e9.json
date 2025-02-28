@@ -2,6 +2,12 @@
   "name": "Home",
   "sections": [
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header - 01"
+      }
+    },
+    {
       "__resolveType": "site/sections/Miscellaneous/Slide.tsx",
       "content": [
         {
@@ -12,6 +18,13 @@
     },
     {
       "__resolveType": "site/sections/Product/ProductShelf.tsx",
+      "layout": {
+        "numberOfSliders": {
+          "desktop": 4,
+          "mobile": 1
+        },
+        "showArrows": true
+      },
       "products": {
         "__resolveType": "wake/loaders/productList.ts",
         "sortDirection": "ASC",
@@ -38,14 +51,7 @@
         },
         "first": 20
       },
-      "title": "Ofertas Especiais",
-      "layout": {
-        "numberOfSliders": {
-          "desktop": 4,
-          "mobile": 1
-        },
-        "showArrows": true
-      }
+      "title": "Ofertas Especiais"
     },
     {
       "__resolveType": "site/sections/Miscellaneous/CampaignTimer.tsx",
