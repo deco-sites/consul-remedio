@@ -2,12 +2,6 @@
   "name": "Home",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "SEO"
-      }
-    },
-    {
       "__resolveType": "Header - 01"
     },
     {
