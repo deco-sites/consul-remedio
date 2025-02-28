@@ -3,14 +3,13 @@
 // This file is automatically updated during development when running `dev.ts`.
 
 import * as $$$$$$$$$$$0 from "./apps/deco/ai-assistants.ts";
-import * as $$$$$$$$$$$1 from "./apps/deco/algolia.ts";
-import * as $$$$$$$$$$$2 from "./apps/deco/analytics.ts";
-import * as $$$$$$$$$$$3 from "./apps/deco/brand-assistant.ts";
-import * as $$$$$$$$$$$4 from "./apps/deco/implementation.ts";
-import * as $$$$$$$$$$$5 from "./apps/deco/wake.ts";
-import * as $$$$$$$$$$$6 from "./apps/deco/weather.ts";
-import * as $$$$$$$$$$$7 from "./apps/deco/workflows.ts";
-import * as $$$$$$$$$$$8 from "./apps/site.ts";
+import * as $$$$$$$$$$$1 from "./apps/deco/analytics.ts";
+import * as $$$$$$$$$$$2 from "./apps/deco/brand-assistant.ts";
+import * as $$$$$$$$$$$3 from "./apps/deco/implementation.ts";
+import * as $$$$$$$$$$$4 from "./apps/deco/wake.ts";
+import * as $$$$$$$$$$$5 from "./apps/deco/weather.ts";
+import * as $$$$$$$$$$$6 from "./apps/deco/workflows.ts";
+import * as $$$$$$$$$$$7 from "./apps/site.ts";
 import * as $$$2 from "./loaders/availableIcons.ts";
 import * as $$$3 from "./loaders/icons.ts";
 import * as $$$0 from "./loaders/Layouts/ProductCard.tsx";
@@ -125,14 +124,13 @@ const manifest = {
   },
   "apps": {
     "site/apps/deco/ai-assistants.ts": $$$$$$$$$$$0,
-    "site/apps/deco/algolia.ts": $$$$$$$$$$$1,
-    "site/apps/deco/analytics.ts": $$$$$$$$$$$2,
-    "site/apps/deco/brand-assistant.ts": $$$$$$$$$$$3,
-    "site/apps/deco/implementation.ts": $$$$$$$$$$$4,
-    "site/apps/deco/wake.ts": $$$$$$$$$$$5,
-    "site/apps/deco/weather.ts": $$$$$$$$$$$6,
-    "site/apps/deco/workflows.ts": $$$$$$$$$$$7,
-    "site/apps/site.ts": $$$$$$$$$$$8,
+    "site/apps/deco/analytics.ts": $$$$$$$$$$$1,
+    "site/apps/deco/brand-assistant.ts": $$$$$$$$$$$2,
+    "site/apps/deco/implementation.ts": $$$$$$$$$$$3,
+    "site/apps/deco/wake.ts": $$$$$$$$$$$4,
+    "site/apps/deco/weather.ts": $$$$$$$$$$$5,
+    "site/apps/deco/workflows.ts": $$$$$$$$$$$6,
+    "site/apps/site.ts": $$$$$$$$$$$7,
   },
   "name": "site",
   "baseUrl": import.meta.url,
