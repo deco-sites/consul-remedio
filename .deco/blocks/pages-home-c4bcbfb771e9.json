@@ -2,6 +2,12 @@
   "name": "Home",
   "sections": [
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "SEO"
+      }
+    },
+    {
       "__resolveType": "Header - 01"
     },
     {
@@ -278,6 +284,7 @@
       }
     },
     {
+      "title": "Best Sellers",
       "__resolveType": "site/sections/Product/ProductShelfTabbed.tsx",
       "tabs": [
         {
@@ -303,7 +310,6 @@
           }
         }
       ],
-      "title": "Best Sellers",
       "layout": {
         "headerfontSize": "Large",
         "headerAlignment": "center"
@@ -313,8 +319,8 @@
       }
     },
     {
-      "title": "Blogposts",
       "__resolveType": "site/sections/Content/BlogPosts.tsx",
+      "title": "Blogposts",
       "posts": [
         {
           "alt": "Item of the Summer",
